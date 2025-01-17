@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MBLoan_Example' do
+  pod 'MBLoan', :path => '../'
+
+  target 'MBLoan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
