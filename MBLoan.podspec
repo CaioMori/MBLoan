@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0', '5.3', '5.5']
 
   s.ios.deployment_target = '13.0'
-  s.source_files = 'MBLoan/Classes/**/*'
+  s.source_files = 'Classes/**/*'
 end
