@@ -16,8 +16,8 @@
 		9FEA7E0141CDADA524E8BFBEAF76BB50 /* Pods-MBLoan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B543B57BDEF26AA8B3CF78701A5CD026 /* Pods-MBLoan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A09629D087FC15AD36C39C1C54200B39 /* MBLoan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824A87271473123D0788B38237306F39 /* MBLoan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8BDD3A8DA0C6638312EF2B0A9E73DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		FD833B0C2D3AF64A0084827C /* LoanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD833B0B2D3AF64A0084827C /* LoanCalculator.swift */; };
-		FD833B0D2D3AF64A0084827C /* LoanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD833B0B2D3AF64A0084827C /* LoanCalculator.swift */; };
+		FD833B3A2D3B00170084827C /* MBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD833B392D3B00170084827C /* MBLoanView.swift */; };
+		FD833B3B2D3B00170084827C /* MBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD833B392D3B00170084827C /* MBLoanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		E48915F9BC7D1B174CAFD0243E5B4C2C /* MBLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBLoan.release.xcconfig; sourceTree = "<group>"; };
 		E69C4C32696FD96966ACA1E2A8F8616F /* Pods-MBLoan_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBLoan_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F05A2CF4031C6369E9FB779CA5A9C781 /* Pods-MBLoan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLoan_Example-umbrella.h"; sourceTree = "<group>"; };
-		FD833B0B2D3AF64A0084827C /* LoanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoanCalculator.swift; path = MBLoan/Classes/LoanCalculator.swift; sourceTree = "<group>"; };
+		FD833B392D3B00170084827C /* MBLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MBLoanView.swift; path = MBLoan/Classes/MBLoanView.swift; sourceTree = "<group>"; };
 		FE79AEB63E5AAFA618A018B9BB228031 /* MBLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBLoan.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,7 @@
 		D29EA05C9757F93E9502CC3C06C100B7 /* MBLoan */ = {
 			isa = PBXGroup;
 			children = (
-				FD833B0B2D3AF64A0084827C /* LoanCalculator.swift */,
+				FD833B392D3B00170084827C /* MBLoanView.swift */,
 				688A717F448A7817DA6DAFD95DE84FA1 /* Pod */,
 				E0E90BE14C17492E6179535EE06BC4F5 /* Support Files */,
 			);
@@ -386,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E15E5750832F9A98FD7ECFBE6ADE02C /* Pods-MBLoan_Example-dummy.m in Sources */,
-				FD833B0D2D3AF64A0084827C /* LoanCalculator.swift in Sources */,
+				FD833B3B2D3B00170084827C /* MBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BF226A687979AE03AB9C313F92A704 /* MBLoan-dummy.m in Sources */,
-				FD833B0C2D3AF64A0084827C /* LoanCalculator.swift in Sources */,
+				FD833B3A2D3B00170084827C /* MBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
