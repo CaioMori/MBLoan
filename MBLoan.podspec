@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MBLoan'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple and efficient loan calculation library for Swift.'
 
   s.description      = <<-DESC
@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0', '5.3', '5.5']
 
   s.ios.deployment_target = '13.0'
-  s.source_files = 'MBLoan/Classes/**/*'
+  s.source_files = 'MBLoan/MBLoan/Classes/**/*'
 end
