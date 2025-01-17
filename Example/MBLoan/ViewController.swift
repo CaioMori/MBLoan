@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MBLoan
 //
-//  Created by 49294078 on 01/17/2025.
-//  Copyright (c) 2025 49294078. All rights reserved.
+//  Created by Caio Mori on 01/17/2025.
+//  Copyright (c) 2025 Caio Mori. All rights reserved.
 //
 
 import UIKit

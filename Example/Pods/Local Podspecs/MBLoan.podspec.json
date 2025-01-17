@@ -1,0 +1,22 @@
+{
+  "name": "MBLoan",
+  "version": "0.1.0",
+  "summary": "A short description of MBLoan.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Caio Mori/MBLoan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Caio Mori": "caiomori22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/CaioMori/MBLoan.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MBLoan/Classes/**/*"
+}

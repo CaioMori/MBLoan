@@ -1,0 +1,6 @@
+framework module MBLoan {
+  umbrella header "MBLoan-umbrella.h"
+
+  export *
+  module * { export * }
+}

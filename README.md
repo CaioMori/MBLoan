@@ -1,6 +1,6 @@
 # MBLoan
 
-[![CI Status](https://img.shields.io/travis/49294078/MBLoan.svg?style=flat)](https://travis-ci.org/49294078/MBLoan)
+[![CI Status](https://img.shields.io/travis/CaioMori/MBLoan.svg?style=flat)](https://travis-ci.org/CaioMori/MBLoan)
 [![Version](https://img.shields.io/cocoapods/v/MBLoan.svg?style=flat)](https://cocoapods.org/pods/MBLoan)
 [![License](https://img.shields.io/cocoapods/l/MBLoan.svg?style=flat)](https://cocoapods.org/pods/MBLoan)
 [![Platform](https://img.shields.io/cocoapods/p/MBLoan.svg?style=flat)](https://cocoapods.org/pods/MBLoan)
@@ -22,7 +22,7 @@ pod 'MBLoan'
 
 ## Author
 
-49294078, caiomori22@gmail.com
+Caio Mori, caiomori22@gmail.com
 
 ## License
 

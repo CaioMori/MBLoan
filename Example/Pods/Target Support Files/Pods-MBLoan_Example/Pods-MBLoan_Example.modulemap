@@ -1,0 +1,6 @@
+framework module Pods_MBLoan_Example {
+  umbrella header "Pods-MBLoan_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
